@@ -50,6 +50,16 @@ nav .container {
     font-weight: 700;
 }
 
+.nav-logo {
+    height: 50px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover {
+    transform: scale(1.05);
+}
+
 .nav-links {
     display: flex;
     list-style: none;
